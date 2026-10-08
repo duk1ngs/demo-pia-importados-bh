@@ -14,3 +14,6 @@
 
 /* Keep captions inside curved media masks. */
 .pia .gallery-three figcaption{left:50%;transform:translateX(-50%);white-space:nowrap}
+
+/* Visible keyboard focus across inverted contact surfaces. */
+.contact a:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 6px #000}
