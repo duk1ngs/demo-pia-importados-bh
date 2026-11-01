@@ -18,3 +18,6 @@
 @media(max-width:760px){.view-buttons button{min-height:44px}.finish-picker label,.finish-picker input{width:44px;height:44px}.finish-picker{gap:6px}}
 .contact input,.contact textarea{border-color:var(--muted)}.pia .pia-collection,.pia .store-section{--accent:#6b563a}.fg .fg-place{--accent:#31596b}
 @media(scripting:none){.view-buttons,.finish-picker,.contact form{display:none}.brand-parallax{will-change:auto}}
+
+/* R2: fallback is an actual export from the GLB studio, never a primitive illustration. */
+.static-phone{inset:0;left:0;top:0;width:100%;height:100%;object-fit:contain;transform:none;filter:none;pointer-events:none}
